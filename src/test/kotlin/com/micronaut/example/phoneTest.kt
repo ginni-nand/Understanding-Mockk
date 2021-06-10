@@ -18,6 +18,5 @@ class phoneTest(
       every { chargermockk.chargeMyPhone("abc") } returns "charging Iphone"
            val response=ph.providePhone("abc")
         Assertions.assertEquals(response,"charging abc check")
-
     }
 }
