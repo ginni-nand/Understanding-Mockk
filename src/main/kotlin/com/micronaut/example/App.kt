@@ -8,7 +8,7 @@ object App {
     fun main(args: Array<String>) {
         Micronaut.build()
                 .packages("com.micronaut.example")
-                .mainClass(App::class.java)
+                .mainClass(work::class.java)
                 .start()
     }
 }
